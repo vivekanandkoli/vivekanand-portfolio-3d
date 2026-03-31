@@ -76,6 +76,9 @@ const Contact = () => {
             <h5>
               <MdCopyright /> 2026
             </h5>
+            <div style={{ marginTop: '10px', opacity: 0.6, fontSize: '12px' }}>
+              <img src="https://visitor-badge.laobi.icu/badge?page_id=vivekanandkoli.portfolio" alt="visitors" />
+            </div>
           </div>
         </div>
       </div>

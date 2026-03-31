@@ -77,10 +77,11 @@ const SocialIcons = () => {
       </div>
       <a
         className="resume-button"
-        href="mailto:vivekanand.koli.central@gmail.com?subject=Resume Request"
+        href="/Vivekanand_Koli_Resume.pdf"
+        target="_blank"
         rel="noreferrer"
       >
-        <HoverLinks text="CONTACT" />
+        <HoverLinks text="RESUME" />
         <span>
           <TbNotes />
         </span>
