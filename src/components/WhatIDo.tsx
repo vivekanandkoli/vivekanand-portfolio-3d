@@ -87,20 +87,21 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI & AUTOMATION</h3>
-              <h4>Workflow Intelligence for Organizations</h4>
+              <h3>TECHNICAL PRODUCT MANAGEMENT</h3>
+              <h4>Payments & FinTech Products</h4>
               <p>
-                AI specialist helping organizations automate workflows—internal ops
-                and customer-facing—so teams ship faster with less manual work.
+                Bridging technical depth with product strategy—from CI/CD pipelines
+                and test architecture to release planning and stakeholder management
+                in high-scale payment systems.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
-                <div className="what-tags">Workflow design</div>
-                <div className="what-tags">RAG &amp; retrieval</div>
-                <div className="what-tags">Evals &amp; guardrails</div>
-                <div className="what-tags">Integrations</div>
-                <div className="what-tags">Product strategy</div>
+                <div className="what-tags">Release Planning</div>
+                <div className="what-tags">Risk Management</div>
+                <div className="what-tags">Stakeholder Communication</div>
+                <div className="what-tags">Agile/Scrum</div>
+                <div className="what-tags">Jira</div>
+                <div className="what-tags">Product Strategy</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -124,21 +125,22 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
+              <h3>QA & AUTOMATION</h3>
+              <h4>Quality Engineering & AI Tools</h4>
               <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
+                8+ years building automation frameworks from scratch, integrating
+                CI/CD pipelines, and using AI tools like Gemini and Cursor AI to
+                optimize testing workflows and coverage.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
+                <div className="what-tags">Playwright</div>
+                <div className="what-tags">Robot Framework</div>
+                <div className="what-tags">Selenium</div>
+                <div className="what-tags">Jenkins/GitLab CI</div>
+                <div className="what-tags">API Testing</div>
+                <div className="what-tags">AI Tools</div>
+                <div className="what-tags">Performance Testing</div>
               </div>
               <div className="what-arrow"></div>
             </div>

@@ -1,176 +1,101 @@
-# 3D Portfolio Website
+# Vivekanand Koli - 3D Portfolio
 
-This repository contains the source code for a personal 3D portfolio built with React, TypeScript, Three.js, React Three Fiber, and GSAP. It includes animated page sections, a character scene, custom cursor interactions, and smooth transitions designed for a modern portfolio experience.
+A modern, interactive 3D portfolio website showcasing my experience as a Technical Product Manager in payments and fintech.
 
-Live site: [https://akashrmalhotra.netlify.app/](https://akashrmalhotra.netlify.app/)
+## 🚀 Live Demo
 
-![Portfolio Preview](public/images/preview1.png)
+Visit: http://localhost:5173/ (when running locally)
 
-## Table of Contents
+## 👨‍💻 About Me
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Available Scripts](#available-scripts)
-- [GSAP License Note](#gsap-license-note)
-- [Customization Guide](#customization-guide)
-- [Troubleshooting](#troubleshooting)
-- [Deployment](#deployment)
-- [License](#license)
+Technical Product Manager with 8+ years in software quality and automation engineering, currently at Opn (Omise) in Bangkok, Thailand. My unique background combines deep technical expertise in CI/CD pipelines, test architecture, and automation with product management skills in payments and fintech.
 
-## Features
+## 🛠️ Technologies Used
 
-- Responsive one-page portfolio layout with reusable section components.
-- 3D character scene rendering powered by React Three Fiber and Three.js.
-- GSAP-powered animations and transitions for interactive storytelling.
-- Custom cursor, hover interactions, and scroll-driven visual effects.
-- Organized component architecture with dedicated utilities and style modules.
+- **Frontend**: React 18, TypeScript, Vite
+- **3D Graphics**: Three.js, React Three Fiber, React Three Drei
+- **Animations**: GSAP, Framer Motion
+- **Physics**: Rapier Physics Engine
+- **Styling**: CSS3, Custom Animations
 
-## Tech Stack
+## 🎯 Features
 
-### Core
+- Interactive 3D character model
+- Smooth scrolling animations
+- Responsive design
+- Tech stack visualization with physics
+- Career timeline
+- Project showcase
+- Contact form
 
-- React 18
-- TypeScript
-- Vite
+## 🚀 Getting Started
 
-### Animation and 3D
+```bash
+# Install dependencies
+npm install
 
-- GSAP + `@gsap/react`
-- Three.js
-- `@react-three/fiber`
-- `@react-three/drei`
-- `@react-three/postprocessing`
-- `@react-three/cannon`
-- `@react-three/rapier`
+# Start development server
+npm run dev
 
-### Supporting Libraries
+# Build for production
+npm run build
 
-- `react-icons`
-- `react-fast-marquee`
-- `@vercel/analytics`
-
-## Project Structure
-
-```text
-.
-├── public/                    # Static assets
-├── src/
-│   ├── assets/                # Local media/assets
-│   ├── components/
-│   │   ├── Character/         # 3D scene + character logic/utilities
-│   │   ├── styles/            # Section/component CSS files
-│   │   ├── About.tsx
-│   │   ├── Career.tsx
-│   │   ├── Contact.tsx
-│   │   ├── Landing.tsx
-│   │   ├── MainContainer.tsx  # Main page composition
-│   │   ├── Navbar.tsx
-│   │   ├── TechStack.tsx
-│   │   ├── WhatIDo.tsx
-│   │   └── Work.tsx
-│   ├── context/               # Global providers (loading state, etc.)
-│   ├── data/                  # Static data/content definitions
-│   ├── App.tsx
-│   └── main.tsx
-├── package.json
-└── vite.config.ts
+# Preview production build
+npm run preview
 ```
 
-## Getting Started
+## 📁 Project Structure
 
-### Prerequisites
+```
+src/
+├── components/       # React components
+├── styles/          # CSS styles
+├── data/           # Static data
+├── utils/          # Utility functions
+└── types/          # TypeScript definitions
+```
 
-- Node.js 18+ (recommended)
-- npm 9+ (or compatible)
+## 💼 Professional Background
 
-### Installation
+- **Current**: Technical Product Manager at Opn (Omise)
+- **Previous**: Senior Quality Engineer, Test Automation specialist
+- **Skills**: Automation frameworks, CI/CD, API testing, Product management
+- **AI Tools**: Experienced with Gemini, Cursor AI, ChatGPT
 
-1. Clone the repository:
+## 🌏 Location
 
-   ```bash
-   git clone <your-repository-url>
-   cd 3d-portfolio
-   ```
+Bangkok, Thailand
 
-2. Install dependencies:
+## 📧 Contact
 
-   ```bash
-   npm install
-   ```
+- **Email**: vivekanand.koli.central@gmail.com
+- **LinkedIn**: [linkedin.com/in/vivekanandkoli](https://linkedin.com/in/vivekanandkoli)
+- **Phone**: +66-917766617
 
-3. Start the local development server:
+## 🎓 Education
 
-   ```bash
-   npm run dev
-   ```
-
-4. Open the URL shown in the terminal (typically `http://localhost:5173`).
+- Bachelor of Engineering in Electrical and Electronics
+- Konkan Gyanpeeth College of Engineering (2011-2016)
+- Currently pursuing PMP Certification (2026)
 
 ## Available Scripts
 
-- `npm run dev`  
-  Starts Vite dev server and exposes host for local network testing.
+- `npm run dev` - Starts Vite dev server with host access
+- `npm run build` - Type-checks and builds production bundle
+- `npm run preview` - Serves production build locally
+- `npm run lint` - Runs ESLint checks
 
-- `npm run build`  
-  Type-checks and builds a production-ready bundle.
+## Customization Made
 
-- `npm run preview`  
-  Serves the production build locally for verification.
+This portfolio has been completely customized with Vivekanand Koli's:
+- ✅ Personal information and contact details
+- ✅ Professional career timeline (8+ years experience)
+- ✅ Technical skills and expertise areas
+- ✅ Education and certifications
+- ✅ Current role and location (Bangkok, Thailand)
+- ✅ Updated project showcase with automation frameworks
+- ✅ Modified "What I Do" sections for TPM and QA expertise
 
-- `npm run lint`  
-  Runs ESLint checks across the project.
+---
 
-## GSAP License Note
-
-This project uses the standard `gsap` package, including bonus plugins now available in the core package.
-
-- Install dependencies with `npm install`.
-- If migrating from older setups, remove `gsap-trial` from your project.
-
-Read official installation guidance here: [GSAP Installation Docs](https://gsap.com/docs/v3/Installation/)
-
-## Customization Guide
-
-You can adapt this portfolio to your own profile by updating the following areas:
-
-- **Content sections**: Edit files in `src/components/` such as `About.tsx`, `Career.tsx`, `WhatIDo.tsx`, and `Work.tsx`.
-- **Data source**: Update static values in files under `src/data/`.
-- **Styling**: Modify component styles in `src/components/styles/` and global styles in `src/index.css` / `src/App.css`.
-- **3D scene behavior**: Adjust scene logic in `src/components/Character/` and related utilities.
-- **Animations**: Tweak GSAP utilities under `src/components/utils/`.
-
-## Troubleshooting
-
-- **Blank screen in development**  
-  Check browser console for module import errors and verify all dependencies are installed.
-
-- **3D performance issues on low-end devices**  
-  Reduce scene complexity and post-processing effects in the character/scene utilities.
-
-- **GSAP plugin errors**  
-  Ensure you have the correct plugin package and license configuration for your target environment.
-
-- **TypeScript build failures**  
-  Run `npm run build` and address reported type errors before deploying.
-
-## Deployment
-
-1. Create a production build:
-
-   ```bash
-   npm run build
-   ```
-
-2. Validate locally:
-
-   ```bash
-   npm run preview
-   ```
-
-3. Deploy the generated `dist/` folder to your hosting provider (for example Vercel, Netlify, or Cloudflare Pages).
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+*Portfolio adapted from original 3D portfolio template with complete customization for Vivekanand Koli's professional profile.*
