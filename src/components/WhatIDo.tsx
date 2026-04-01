@@ -125,22 +125,22 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>QA & AUTOMATION</h3>
-              <h4>Quality Engineering & AI Tools</h4>
+              <h3>TECHNICAL SYSTEMS</h3>
+              <h4>Payment Infrastructure & Engineering</h4>
               <p>
-                8+ years building automation frameworks from scratch, integrating
-                CI/CD pipelines, and using AI tools like Gemini and Cursor AI to
-                optimize testing workflows and coverage.
+                Deep technical expertise in payment systems architecture, API design,
+                and scalable infrastructure. Leading cross-functional teams to deliver
+                robust fintech solutions with focus on reliability and performance.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Playwright</div>
-                <div className="what-tags">Robot Framework</div>
-                <div className="what-tags">Selenium</div>
-                <div className="what-tags">Jenkins/GitLab CI</div>
-                <div className="what-tags">API Testing</div>
-                <div className="what-tags">AI Tools</div>
-                <div className="what-tags">Performance Testing</div>
+                <div className="what-tags">Payment APIs</div>
+                <div className="what-tags">System Architecture</div>
+                <div className="what-tags">CI/CD Pipelines</div>
+                <div className="what-tags">Microservices</div>
+                <div className="what-tags">Database Design</div>
+                <div className="what-tags">AI Integration</div>
+                <div className="what-tags">Performance Optimization</div>
               </div>
               <div className="what-arrow"></div>
             </div>
